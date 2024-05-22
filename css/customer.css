@@ -4,21 +4,15 @@
 *{
     margin: 0;
     padding: 0;
+    outline: none;/*Contorno de linha*/
     box-sizing: border-box;
-
-   
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    
 }
-
-body p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+html{
+    font-size: 62.5%;  
+    scroll-behavior: smooth; /*Efeito de rolagem suave*/
 }
-
-.cabecalho{
-    width: 100%;
-    height: 100px;
-    background-color: #0b1247;
-    color: #fff;
-    box-shadow: 1px 3px 4px #000;
- }
