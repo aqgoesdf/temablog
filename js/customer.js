@@ -1,2 +1,1 @@
 //AqGoes Desenvolvedor
-alert('aqgoes');
