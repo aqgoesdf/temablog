@@ -13,5 +13,15 @@
     
 }
 html{
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth; /*Efeito de rolagem suave*/
+}
+.carrossel{
+    margin-bottom: 20px;
+}
+.chamada_cao{
+    width: 100%;
+    height: 350px;
+    background-color: cadetblue;
 }
