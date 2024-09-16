@@ -1,27 +1,62 @@
-/*Desevolvedor aqgoes*/
+/*AqGoEs*/
 
-/*Google Fontes*/
 *{
     margin: 0;
     padding: 0;
-    outline: none;/*Contorno de linha*/
     box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Jost", sans-serif;
-    font-weight: 400;
-    
 }
-html{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth; /*Efeito de rolagem suave*/
+header{
+    text-align: center;
 }
-.carrossel{
-    margin-bottom: 20px;
+header h1{
+    padding-top: 10px;
 }
-.chamada_cao{
-    width: 100%;
-    height: 350px;
-    background-color: cadetblue;
+header p{
+    text-align: justify;
+    padding: 15px;
+}
+
+
+.container{
+    display: flex;
+    background-color: aqua;
+}
+.container > div{
+    background-color: blue;
+    color: #fff;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 20px;
+}
+/*Médias Queries*/
+
+@media screen and ( max-width: 600px)
+{
+    body{
+        background-color: brown;
+        color: #fff;
+        font-size: 18px;
+    }
+    header h1{
+        color: black;
+    }
+}
+
+@media screen and ( max-width: 400px)
+{
+    body{
+        background-color: brown;
+        color: #fff;
+    }
+    header h1{
+        color: black;
+    }
+    header p{
+        font-size: 18px;
+    }
+}
+.container > div{
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
 }
