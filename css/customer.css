@@ -59,4 +59,17 @@ header p{
     width: 250px;
     font-size: 15px;
     text-align: center;
+    background-color: red;
+    animation-name: exemple-01;
+    animation-duration: 4s;
+}
+
+
+@keyframes exemple-01{
+    from {
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
 }
